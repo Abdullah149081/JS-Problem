@@ -1,13 +1,13 @@
 function greaterThenFive(arrayNumber) {
-  let storeArray = [];
+  let count = 0;
   for (var i = 0; i < arrayNumber.length; i++) {
     let getElement = arrayNumber[i];
     if (getElement > 5) {
-      storeArray.push(getElement);
+      count = count + 1;
     }
   }
 
-  return storeArray.length;
+  return count;
 }
 
 const array = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10];
