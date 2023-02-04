@@ -1,4 +1,4 @@
-function ratherThenFive(arrayNumber) {
+function greaterThenFive(arrayNumber) {
   let storeArray = [];
   for (var i = 0; i < arrayNumber.length; i++) {
     let getElement = arrayNumber[i];
@@ -11,5 +11,5 @@ function ratherThenFive(arrayNumber) {
 }
 
 const array = [-1, 2, -3, 4, 5, 6, -7, 8, -9, 10];
-const output = ratherThenFive(array);
+const output = greaterThenFive(array);
 console.log(output);
