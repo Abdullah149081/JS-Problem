@@ -10,8 +10,11 @@ function myFriend(friendCheck) {
     }
   }
 
-  console.log(friendBigName);
+  friendBigName = friendBigName.split("").reverse().join("");
+
+  return friendBigName;
 }
 
 const friend = ["Meskath", "shamim Hossain"];
 const output = myFriend(friend);
+console.log(output);
