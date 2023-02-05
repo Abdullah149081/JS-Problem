@@ -22,5 +22,4 @@ const person = [
 ];
 
 const output = arrayOfObject(person);
-console.log(output.name
-  );
+console.log(output.name);
